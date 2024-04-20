@@ -1,0 +1,54 @@
+.paginaHo {
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.logout {
+    background-color: #53B58C;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    margin: 7px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.tabelaHo {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px;
+}
+
+.tabelaHeadHo {
+    border-bottom: 2px solid black;
+}
+
+.linha {
+    align-items: center;
+    justify-content: center;
+}
+
+.linha td {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.botaoSkillHo{
+    background-color: #53B58C;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
