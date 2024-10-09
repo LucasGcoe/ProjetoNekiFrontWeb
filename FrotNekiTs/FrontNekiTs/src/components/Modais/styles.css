@@ -1,0 +1,8 @@
+.AddSkillButton{
+    background-color: #1a3c4e !important;
+    border: 0 !important;
+}
+.AddSkillButton:hover{
+    background-color: #0d1f29 !important;
+
+}

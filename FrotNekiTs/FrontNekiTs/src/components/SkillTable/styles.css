@@ -1,0 +1,31 @@
+.EditButton {
+  background-color: #1a3c4e !important;
+  border: 0 !important;
+  margin-right: 2% !important;
+  text-align: center !important;
+  font-weight: bold;
+}
+.EditButton:hover {
+  background-color: #0d1f29 !important;
+}
+.DeleteButton {
+  background-color: #1a3c4e !important;
+  border: 0 !important;
+  font-weight: bold;
+}
+.DeleteButton:hover {
+  background-color: #0d1f29 !important;
+}
+.CabecalhoEdit {
+  text-align: center !important;
+  border: 1px solid #080808;
+}
+.Line {
+  border: 1px solid #080808;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.Cabecalho {
+  border: 1px solid #080808;
+}
