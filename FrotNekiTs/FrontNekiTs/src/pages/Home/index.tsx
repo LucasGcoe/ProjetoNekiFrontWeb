@@ -50,6 +50,7 @@ const Home: React.FC = () => {
   const fetchUserSkills = async () => {
     try {
       const response = await service.get<UserSkill[]>(`/usuario/listaSkill/${sessionStorage.getItem('id')}`);
+    
       setLista(response.data);
       setFiltro(options.filter(skill =>
         !response.data.some(item => skill.label === item.skills.nome)

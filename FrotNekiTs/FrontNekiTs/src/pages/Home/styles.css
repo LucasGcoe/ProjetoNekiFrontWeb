@@ -63,9 +63,10 @@
   background-color: #0d1f29 !important;
 }
 .page-item {
+  display: flex;
   background-color: #1a3c4e !important;
   font-weight: bold !important;
-  margin-right: 15%;
+  margin-right: 25%!important;
   border: 0 !important;
 }
 .page-item:hover{
