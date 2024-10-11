@@ -6,3 +6,16 @@
     background-color: #0d1f29 !important;
 
 }
+.EditSkillButton{
+    background-color: #1a3c4e !important;
+    border: 0 !important;
+}
+.EditSkillButton:hover{
+    background-color: #0d1f29 !important;
+}
+.EditSkillButtonSave{
+    background-color: #1a3c4e !important;
+}
+.EditSkillButtonSave:hover{
+    background-color: #0d1f29 !important;
+}

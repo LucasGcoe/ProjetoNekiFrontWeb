@@ -73,10 +73,10 @@ const EditSkillModal: React.FC<EditSkillModalProps> = ({ show, onHide, onEditSki
         />
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={onHide}>
+        <Button className='EditSkillButton' variant="secondary" onClick={onHide}>
           Fechar
         </Button>
-        <Button variant="primary" onClick={updateSkill}>
+        <Button className='EditSkillButtonSave' variant="primary" onClick={updateSkill}>
           Salvar Alterações
         </Button>
       </Modal.Footer>
